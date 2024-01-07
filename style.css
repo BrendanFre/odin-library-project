@@ -96,14 +96,12 @@ button:focus-visible {
 }
 
 .bookTable{
-  display: grid;
-  grid-template-columns: 1em 2em;
   gap: 20px;
 }
 
 .bookRow{
   display: grid;
-  grid-template-columns: 200px 500px;
+  grid-template-columns: 200px 250px 65px;
   gap: 10px;
 }
 
@@ -113,6 +111,10 @@ button:focus-visible {
 
 .bookAuthor{
   grid-column: 2;
+}
+
+.deleteButton{
+  grid-column: 3;
 }
 
 
